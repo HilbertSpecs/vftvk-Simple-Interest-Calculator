@@ -10,7 +10,7 @@ function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
-funcion sampleResult(){
+function sampleResult(){
         principal = 1000000;
         rate =3.5;
         amount = 175000;
