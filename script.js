@@ -11,5 +11,6 @@ function compute()
     document.getElementById("rate_val").innerText=rateval;
 }
     
+
 }
         
