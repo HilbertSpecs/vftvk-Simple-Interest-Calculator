@@ -12,11 +12,3 @@ function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval+"%";
 }
-function sampleResult(){
-        principal = 1000000;
-        rate =3.5;
-        amount = 175000;
-        year = 2025;
-        document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>"
-
-}
