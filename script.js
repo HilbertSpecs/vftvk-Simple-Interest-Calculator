@@ -19,7 +19,7 @@ function updateRate() {
 function validatePrincipal(){
 
     var princp = document.getElementById("principal");
-    if(princp.value == 0 || princp.value < 0){
+    if(princp.value <= 0){
         alert("Enter a positive number");
         princp.focus();
         return false;
