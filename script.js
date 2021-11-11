@@ -19,6 +19,7 @@ function updateRate() {
 function validatePrincipal(){
 
     var princp = document.getElementById("principal");
+    console.log(princp);
     if(princp.value <= 0){
         alert("Enter a positive number");
         princp.focus();
