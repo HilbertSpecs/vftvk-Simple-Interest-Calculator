@@ -14,3 +14,13 @@ function updateRate() {
     document.getElementById("rate_val").innerText=rateval+"%";
 }
 
+function validatePrincipal(){
+
+    var princp = document.getElementById("principal");
+    if(princp.value == 0 || princp.value < 0){
+        alert("Enter a positive number");
+        princp.focus();
+        return false;
+    }
+    return true;
+}
